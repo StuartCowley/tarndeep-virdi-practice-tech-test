@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# React Technical Test
+
+- Build a search input
+- Create a function that GETs the images
+- Build a component that renders images on the page
+- Write tests
+- Finishing styling
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
