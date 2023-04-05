@@ -1,13 +1,11 @@
 import "../styles/App.css";
 import Search from "./Search";
+import nasaLogo from "../assets/nasa-worm-logo.jpg";
 
 function App() {
   return (
     <div className="app">
-      <img
-        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-        alt="NASA logo"
-      />
+      <img className="app--nasa-logo" src={nasaLogo} alt="NASA logo" />
       <Search />
     </div>
   );

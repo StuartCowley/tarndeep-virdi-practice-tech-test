@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+html,
+body {
+  margin: 0;
+  border: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app--nasa-logo {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
