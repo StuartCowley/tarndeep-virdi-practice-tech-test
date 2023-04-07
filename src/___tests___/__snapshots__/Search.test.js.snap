@@ -2,9 +2,23 @@
 
 exports[`Search Component renders correctly 1`] = `
 <DocumentFragment>
-  <input
-    class="search--input-text"
-    type="text"
-  />
+  <form
+    action=""
+    class="search--form"
+  >
+    <input
+      class="search--input-text"
+      type="text"
+      value=""
+    />
+    <button
+      class="search--btn"
+      type="submit"
+    >
+      <svg>
+        searchIcon.svg
+      </svg>
+    </button>
+  </form>
 </DocumentFragment>
 `;

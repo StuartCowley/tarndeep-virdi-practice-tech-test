@@ -10,10 +10,24 @@ exports[`App Component renders correctly 1`] = `
       class="app--nasa-logo"
       src="nasa-worm-logo.jpg"
     />
-    <input
-      class="search--input-text"
-      type="text"
-    />
+    <form
+      action=""
+      class="search--form"
+    >
+      <input
+        class="search--input-text"
+        type="text"
+        value=""
+      />
+      <button
+        class="search--btn"
+        type="submit"
+      >
+        <svg>
+          searchIcon.svg
+        </svg>
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;
