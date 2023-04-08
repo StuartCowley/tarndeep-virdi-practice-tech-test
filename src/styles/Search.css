@@ -1,6 +1,7 @@
 .search--input-text {
   max-width: 300px;
   width: 70%;
+  text-indent: 10px;
 }
 
 .search--form {

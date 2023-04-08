@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import "../styles/Search.css";
 import { ReactComponent as SearchIcon } from "../assets/searchIcon.svg";
+import { getImages } from "../requests/getImages";
 
 export default function Search() {
   const [value, setValue] = useState("");
 
-  const changeValue = (event) => {
-    setValue(event.target.value);
+  const changeValue = (event) => setValue(event.target.value);
+
+  const handleSearch = () => {
+    return getImages(value);
   };
 
   return (
@@ -18,7 +21,7 @@ export default function Search() {
           onChange={changeValue}
           value={value}
         />
-        <button type="submit" className="search--btn">
+        <button type="button" className="search--btn" onClick={handleSearch}>
           <SearchIcon />
         </button>
       </form>
