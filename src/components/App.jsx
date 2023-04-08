@@ -1,8 +1,10 @@
+import React, { useState } from "react";
 import "../styles/App.css";
 import Search from "./Search";
 import nasaLogo from "../assets/nasa-worm-logo.jpg";
 
 function App() {
+  const [searchResults, setSearchResults] = useState([]);
   return (
     <div className="app">
       <img className="app--nasa-logo" src={nasaLogo} alt="NASA logo" />

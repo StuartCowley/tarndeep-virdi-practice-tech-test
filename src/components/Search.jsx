@@ -9,7 +9,8 @@ export default function Search() {
   const changeValue = (event) => setValue(event.target.value);
 
   const handleSearch = () => {
-    return getImages(value);
+    const imageResult = getImages(value);
+    console.log(imageResult);
   };
 
   return (
