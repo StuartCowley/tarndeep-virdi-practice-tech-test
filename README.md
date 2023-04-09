@@ -1,42 +1,30 @@
-# React Technical Test
+# NASA Image Search React App
 
-- Build a search input
-- Create a function that GETs the images
-- Build a component that renders images on the page
-- Write tests
-- Finishing styling
+## React Technical Test
 
-## Brief
+### Live Page: https://react-nasa-tech-test.netlify.app/
 
-Technical Task - React Developer Role
+This React web app allows users to search for images related to space using the NASA API for image search and then renders them if the search has been successful.
 
-You are expected to build a React web application that allows users to search for images based on a query relating to space. You are provided the NASA API endpoint for image search.
-We want you to consider and add anything to your repository that should be included was this to be a live website.
-
-The following functionalities need to be implemented:
-● A Search page which allows users to search for images by keyword
-● Images must be returned upon a successful search
-
-The styling is up to you but will be taken into consideration when evaluating your application.
-
-We estimate this task to take ​​10 hours​​. Once you have completed the task upload the repository to GitHub and send the link to xxxxx@xxx.com. ​Deadline: 5 days from receiving.
-
-Relevant API endpoints:
-
-image search:
-GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q
-
-Assets
-
-You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg
+## Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+It uses [Axios](https://www.npmjs.com/package/axios) to to handle HTTP requests and uses [Jest](https://jestjs.io/) as the testing framework.
+
+## Installation
+
+To install the app, clone the repository to your local machine and run npm install to install the necessary dependencies.
+
+```bash
+git clone https://github.com/tsv-stacks/practice-tech-test
+cd practice-tech-test
+npm install
+```
 
 In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -44,17 +32,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+`npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Future Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] Dark / Light mode toggle
+- [ ] `Ent` key press to search
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you encounter any issues or bugs, or have any suggestions for improving this project, please feel free to contact me on [twitter](https://twitter.com/tsv_stacks).
+
+You can also submit an issue on this repository to report any bugs or suggest new features. Please provide as much detail as possible, including any error messages and steps to reproduce the issue.
