@@ -3,14 +3,14 @@ import "../styles/Search.css";
 import { ReactComponent as SearchIcon } from "../assets/searchIcon.svg";
 import { getImages } from "../requests/getImages";
 
-export default function Search() {
+export default function Search({ setSearchResults }) {
   const [value, setValue] = useState("");
 
   const changeValue = (event) => setValue(event.target.value);
 
-  const handleSearch = () => {
-    const imageResult = getImages(value);
-    console.log(imageResult);
+  const handleSearch = async () => {
+    const imageResult = await getImages(value);
+    return setSearchResults(imageResult);
   };
 
   return (
