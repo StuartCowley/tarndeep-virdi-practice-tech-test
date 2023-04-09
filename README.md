@@ -7,7 +7,6 @@
   <img src="https://user-images.githubusercontent.com/113384739/230782522-2096dc7c-8b2d-4b26-944f-1d81c3a9393f.png" alt="desktop-site-preview" width="61%" height="auto">
 </div>
 
-
 ### Live Page: https://react-nasa-tech-test.netlify.app/
 
 This React web app allows users to search for images related to space using the NASA API for image search and then renders them if the search has been successful.
