@@ -10,6 +10,11 @@
   object-fit: cover;
 }
 
+.result--none {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 @media (max-width: 769px) {
   .result--table {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

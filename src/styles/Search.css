@@ -7,4 +7,9 @@
 .search--form {
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
+}
+
+.search--btn:active {
+  transform: scale(1.1);
 }

@@ -21,13 +21,18 @@ exports[`App Component renders correctly 1`] = `
       />
       <button
         class="search--btn"
-        type="submit"
+        type="button"
       >
         <svg>
           searchIcon.svg
         </svg>
       </button>
     </form>
+    <p
+      class="result--none"
+    >
+      No Results
+    </p>
   </div>
 </DocumentFragment>
 `;
