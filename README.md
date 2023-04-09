@@ -2,9 +2,9 @@
 
 ## React Technical Test
 
-<div style="display: inline-flex;">
-  <img src="https://user-images.githubusercontent.com/113384739/230782487-52517c25-baf8-4bc0-91ba-944aea859812.png" alt="mobile-site-preview" width="200" height="auto">
-  <img src="https://user-images.githubusercontent.com/113384739/230782522-2096dc7c-8b2d-4b26-944f-1d81c3a9393f.png" alt="desktop-site-preview" width="auto" height="auto">
+<div style="display: inline-block;">
+  <img src="https://user-images.githubusercontent.com/113384739/230782487-52517c25-baf8-4bc0-91ba-944aea859812.png" alt="mobile-site-preview" width="20%" height="auto">
+  <img src="https://user-images.githubusercontent.com/113384739/230782522-2096dc7c-8b2d-4b26-944f-1d81c3a9393f.png" alt="desktop-site-preview" width="80%" height="auto">
 </div>
 
 
