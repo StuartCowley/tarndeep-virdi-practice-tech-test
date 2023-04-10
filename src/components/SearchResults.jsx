@@ -2,16 +2,23 @@ import React from "react";
 import "../styles/SearchResults.css";
 
 export default function SearchResults({ results }) {
-  let display = results.map((result) => {
-    return <img className="result--image" src={result} alt="space" />;
+  let display = results.map((result, i) => {
+    return (
+      <img
+        className="search-results__image"
+        src={result.url}
+        alt={result.alttext}
+        key={`${i}-${result.alttext}`}
+      />
+    );
   });
 
   return (
     <>
       {results && results.length === 0 ? (
-        <p className="result--none">No Results</p>
+        <p className="search-results__image-none">No Results</p>
       ) : (
-        <div className="result--table">{display}</div>
+        <div className="search-results__image-table">{display}</div>
       )}
     </>
   );

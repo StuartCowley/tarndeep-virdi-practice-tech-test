@@ -7,21 +7,23 @@ exports[`App Component renders correctly 1`] = `
   >
     <img
       alt="NASA logo"
-      class="app--nasa-logo"
+      class="app__nasa-logo"
       src="nasa-worm-logo.jpg"
     />
     <form
-      action=""
-      class="search--form"
+      class="search-form"
     >
       <input
-        class="search--input-text"
+        aria-label="Search"
+        class="search-form__input-text"
+        placeholder="Search..."
         type="text"
         value=""
       />
       <button
-        class="search--btn"
-        type="button"
+        aria-label="Search Button"
+        class="search-form__btn"
+        type="submit"
       >
         <svg>
           searchIcon.svg
@@ -29,7 +31,7 @@ exports[`App Component renders correctly 1`] = `
       </button>
     </form>
     <p
-      class="result--none"
+      class="search-results__image-none"
     >
       No Results
     </p>

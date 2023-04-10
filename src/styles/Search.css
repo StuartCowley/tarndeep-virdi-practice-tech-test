@@ -1,15 +1,15 @@
-.search--input-text {
+.search-form__input-text {
   max-width: 300px;
   width: 70%;
   text-indent: 10px;
 }
 
-.search--form {
+.search-form {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
 }
 
-.search--btn:active {
+.search-form__btn:active {
   transform: scale(1.1);
 }

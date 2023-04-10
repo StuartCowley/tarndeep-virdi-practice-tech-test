@@ -3,17 +3,19 @@
 exports[`Search Component renders correctly 1`] = `
 <DocumentFragment>
   <form
-    action=""
-    class="search--form"
+    class="search-form"
   >
     <input
-      class="search--input-text"
+      aria-label="Search"
+      class="search-form__input-text"
+      placeholder="Search..."
       type="text"
       value=""
     />
     <button
-      class="search--btn"
-      type="button"
+      aria-label="Search Button"
+      class="search-form__btn"
+      type="submit"
     >
       <svg>
         searchIcon.svg
