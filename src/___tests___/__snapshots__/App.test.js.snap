@@ -7,7 +7,7 @@ exports[`App Component renders correctly 1`] = `
   >
     <img
       alt="NASA logo"
-      class="app--nasa-logo"
+      class="app__nasa-logo"
       src="nasa-worm-logo.jpg"
     />
     <form
@@ -30,7 +30,7 @@ exports[`App Component renders correctly 1`] = `
       </button>
     </form>
     <p
-      class="result--none"
+      class="search-results__image-none"
     >
       No Results
     </p>
