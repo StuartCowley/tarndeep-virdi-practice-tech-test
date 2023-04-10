@@ -24,7 +24,12 @@ export default function Search({ setSearchResults }) {
         placeholder="Search..."
         aria-label="Search"
       />
-      <button type="submit" className="search-form__btn" onClick={handleSearch}>
+      <button
+        type="submit"
+        className="search-form__btn"
+        onClick={handleSearch}
+        aria-label="Search Button"
+      >
         <SearchIcon />
       </button>
     </form>
