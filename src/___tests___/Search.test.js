@@ -12,7 +12,10 @@ describe("Search Component", () => {
   it("renders search input field", () => {
     render(<Search />);
     const searchInput = screen.getByRole("textbox");
+    const inputText = screen.getByPlaceholderText("Search...");
+
     expect(searchInput).toBeInTheDocument();
-    expect(searchInput).toHaveClass("search--input-text");
+    expect(searchInput).toHaveClass("search-form__input-text");
+    expect(inputText).toBeInTheDocument();
   });
 });

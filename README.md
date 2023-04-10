@@ -45,7 +45,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## Future Features
 
 - [ ] Dark / Light mode toggle
-- [ ] `Ent` key press to search
+- [x] `Ent` key press to search
+- [ ] Add alt attribute to images
+- [ ] "Loading Images" message when waiting for images to load
 
 ## Contact
 
