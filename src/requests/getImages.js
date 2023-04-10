@@ -11,10 +11,12 @@ function getImages(query) {
         const imageResults = arrayResults.filter(
           (result) => result.data[0].media_type === "image"
         );
-        return imageResults.map((image) => [
-          image.links[0].href,
-          image.data[0].title,
-        ]);
+        return imageResults.map((image) => {
+          return {
+            url: image.links[0].href,
+            alttext: image.data[0].title,
+          };
+        });
       })
       .catch((error) => {
         console.log(error);

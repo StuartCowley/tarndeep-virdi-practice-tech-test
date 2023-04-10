@@ -4,10 +4,10 @@ import SearchResults from "../components/SearchResults";
 
 describe("SearchResults component", () => {
   const validProps = [
-    ["test-url-1", "alt-1"],
-    ["test-url-2", "alt-2"],
-    ["test-url-3", "alt-3"],
-    ["test-url-4", "alt-4"],
+    { url: "test-url-1", alttext: "alt-1" },
+    { url: "test-url-2", alttext: "alt-2" },
+    { url: "test-url-3", alttext: "alt-3" },
+    { url: "test-url-4", alttext: "alt-4" },
   ];
 
   it("renders correctly", () => {
@@ -17,15 +17,10 @@ describe("SearchResults component", () => {
   });
 
   it("renders image correctly", () => {
-    const result = [
-      [
-        "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
-        "Image of the Moon",
-      ],
-    ];
+    const result = [{ url: "test-url-1", alttext: "alt-1" }];
     render(<SearchResults results={result} />);
 
-    expect(screen.getByAltText("Image of the Moon")).toBeInTheDocument();
+    expect(screen.getByAltText("alt-1")).toBeInTheDocument();
   });
 
   it("renders 'No Results' message when there are no search results", () => {

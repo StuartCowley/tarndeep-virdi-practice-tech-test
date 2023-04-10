@@ -6,9 +6,9 @@ export default function SearchResults({ results }) {
     return (
       <img
         className="search-results__image"
-        src={result[0]}
-        alt={result[1]}
-        key={`${i}-${result[1]}`}
+        src={result.url}
+        alt={result.alttext}
+        key={`${i}-${result.alttext}`}
       />
     );
   });
