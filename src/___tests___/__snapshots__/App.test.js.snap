@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <img
+      alt="NASA logo"
+      class="app--nasa-logo"
+      src="nasa-worm-logo.jpg"
+    />
+    <form
+      action=""
+      class="search--form"
+    >
+      <input
+        class="search--input-text"
+        type="text"
+        value=""
+      />
+      <button
+        class="search--btn"
+        type="button"
+      >
+        <svg>
+          searchIcon.svg
+        </svg>
+      </button>
+    </form>
+    <p
+      class="result--none"
+    >
+      No Results
+    </p>
+  </div>
+</DocumentFragment>
+`;

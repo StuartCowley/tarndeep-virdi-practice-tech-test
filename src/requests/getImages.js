@@ -1,0 +1,23 @@
+import axios from "axios";
+
+function getImages(query) {
+  if (!query) {
+    return Promise.resolve([]);
+  } else {
+    return axios
+      .get(`https://images-api.nasa.gov/search?q=${query}`)
+      .then((response) => {
+        const arrayResults = response.data.collection.items;
+        const imageResults = arrayResults.filter(
+          (result) => result.data[0].media_type === "image"
+        );
+        const parsedImages = imageResults.map((image) => image.links[0].href);
+        return parsedImages;
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
+}
+
+export { getImages };
