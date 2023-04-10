@@ -46,7 +46,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 - [ ] Dark / Light mode toggle
 - [x] `Ent` key press to search
-- [ ] Add alt attribute to images
+- [x] Add alt attribute to images
 - [ ] "Loading Images" message when waiting for images to load
 
 ## Contact

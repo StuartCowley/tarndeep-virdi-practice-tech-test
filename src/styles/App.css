@@ -13,7 +13,7 @@ body {
   flex-direction: column;
 }
 
-.app--nasa-logo {
+.app__nasa-logo {
   width: 80%;
   max-width: 400px;
   margin: 0 auto;

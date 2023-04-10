@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="app">
-      <img className="app--nasa-logo" src={nasaLogo} alt="NASA logo" />
+      <img className="app__nasa-logo" src={nasaLogo} alt="NASA logo" />
       <Search setSearchResults={setSearchResults} />
       <SearchResults results={searchResults} />
     </div>
