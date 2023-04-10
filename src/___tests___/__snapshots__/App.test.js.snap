@@ -21,6 +21,7 @@ exports[`App Component renders correctly 1`] = `
         value=""
       />
       <button
+        aria-label="Search Button"
         class="search-form__btn"
         type="submit"
       >
